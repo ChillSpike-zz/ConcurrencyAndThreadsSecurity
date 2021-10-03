@@ -14,7 +14,7 @@ public class Threading{
 
     }
 
-    public void getMultiples(int num) {
+    synchronized void getMultiples(int num) {
         for(int i=0;i<=5;i++){
             System.out.println(num * i);
             try{
